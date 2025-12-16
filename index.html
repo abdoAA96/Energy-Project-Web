@@ -26,22 +26,48 @@
         <p>Today's Date: <span id="current-date"></span></p>
 
         <div class="image-container">
-            <img src="https://via.placeholder.com/800x300?text=Sustainable+Energy+Sources" alt="Montage of different sustainable energy sources" class="animated-image">
+            <img src="images/energy.png" alt="Montage of different sustainable energy sources" class="animated-image">
             <p>A diverse energy future.</p>
         </div>
 
         <section>
             <h2>Understanding Sustainability</h2>
             <p>Sustainable energy refers to energy sources that are naturally replenished and have a low environmental impact. They are crucial for mitigating climate change and ensuring long-term energy security.</p>
-            <p>Click <a href="#key-benefits">here</a> to jump to the benefits section.</p>
+            <p>Ready to skip the technical details? **<a href="#key-benefits">CLICK HERE TO JUMP TO KEY BENEFITS</a>**</p>
         </section>
 
+        <section>
+            <h2>The Global Energy Transition</h2>
+            <p>The world is currently undergoing a massive shift from fossil fuels (like coal, oil, and gas) to cleaner, renewable sources. This transition is not just about environmental safety; it's about energy independence and creating a stable, long-term power supply for all nations.  </p>
+            
+            <h3>Advanced Technologies Driving Change</h3>
+            <p>While solar, wind, and hydro are the backbone, other technologies are essential for managing a fully clean power grid. These innovations address the challenge of intermittency (when the sun isn't shining or the wind isn't blowing):</p>
+            
+            <div class="tech-grid">
+                <div>
+                    <h4>Energy Storage (Batteries)</h4>
+                    <p>Large-scale battery systems store excess renewable power and discharge it when needed. This ensures electricity is available 24/7, balancing the grid.</p>
+                </div>
+                <div>
+                    <h4>Geothermal Power</h4>
+                    <p>Harnessing stable heat from the Earth's core. Geothermal is highly reliable because it produces power continuously, regardless of weather.</p>
+                </div>
+                <div>
+                    <h4>Green Hydrogen</h4>
+                    <p>Hydrogen produced using renewable electricity (electrolysis). It can be used as a clean fuel for heavy transport, industry, and long-term storage.</p>
+                </div>
+            </div>
+            
+            <p>The synergy between these technologies is what makes a fully sustainable future possible. The links above will take you to pages dedicated to Solar, Wind, and Hydro.</p>
+        </section>
+        
         <section id="key-benefits">
             <h2>Key Benefits of Renewable Energy</h2>
             <ul>
-                <li>**Reduced Emissions:** Significantly lowers greenhouse gas emissions compared to fossil fuels.</li>
-                <li>**Energy Security:** Less reliance on volatile global fuel markets.</li>
-                <li>**Job Creation:** Drives innovation and creates green jobs.</li>
+                <li>**Reduced Emissions:** Significantly lowers greenhouse gas emissions compared to fossil fuels, directly mitigating climate change.</li>
+                <li>**Energy Security:** Provides a domestic, inexhaustible power source, decreasing reliance on volatile global fuel markets.</li>
+                <li>**Job Creation:** Stimulates new sectors, manufacturing, and maintenance jobs in the green economy.</li>
+                <li>**Public Health:** Reduces air and water pollution, leading to lower rates of respiratory illnesses.</li>
             </ul>
         </section>
 
@@ -58,7 +84,7 @@
 
     <script src="script.js"></script>
     <script>
-        // Code to insert the date on page load
+        // Code to insert the date on page load (Requirement 6)
         document.getElementById('current-date').textContent = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
     </script>
 </body>
